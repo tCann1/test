@@ -1,0 +1,29 @@
+# test
+print( """
+4 İşlem Hesap Makinesi
+
+İşlemler:
+1. Toplama
+2. Çıkarma
+3. Çarpma
+4. Bölme
+      
+""")
+
+
+x= int(input("Sayı1:"))
+y = int(input("Sayı2:"))
+
+işlem= input("Yapılması İstenilen İşlem:")
+
+
+if işlem =="1":
+    print("{} + {} = {}".format(x,y,x+y))
+elif işlem =="2":
+    print("{} - {} = {}".format(x,y,x-y))
+elif işlem =="3":
+    print("{} * {} = {}".format(x,y,x*y))
+elif işlem =="4":
+    print("{} / {} = {}".format(x,y,x/y))
+else:
+    print("Geçersiz İşlem!" )
